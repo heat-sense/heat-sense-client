@@ -22,7 +22,7 @@ if not os.path.exists(file_name):
     print(f"File '{file_name}' created with UUID: {new_uuid}")
 else:
     print(f"File '{file_name}' already exists.")
-    
+
 sense = SenseHat()
 temperature = sense.get_temperature()
 print(temperature)
